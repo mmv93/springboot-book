@@ -30,6 +30,7 @@ public class AuthorController {
         Author oldAuthor = authorRepository.findById(author.getId().toString()).orElse(null);
         oldAuthor.setFirstName(author.getFirstName());
         oldAuthor.setLastName(author.getLastName());
+        oldAuthor.setBooks(author.getBooks());
         return authorRepository.save(oldAuthor);
     }
     @DeleteMapping("/{id}")
