@@ -1,4 +1,4 @@
-package io.mahesh.mongo;
+package io.mmashevs.mongo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

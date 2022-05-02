@@ -1,4 +1,4 @@
-package io.mahesh.mongo;
+package io.mmashevs.mongo;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

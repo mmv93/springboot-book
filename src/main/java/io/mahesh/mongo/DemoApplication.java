@@ -1,4 +1,4 @@
-package io.mahesh.mongo;
+package io.mmashevs.mongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
